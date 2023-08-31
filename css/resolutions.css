@@ -1,0 +1,183 @@
+
+@media (max-width: 912px) {
+    .fundo {
+        background-size: 259%;
+    }
+    .icones {
+        margin-left: -28px;
+        margin-top: 135%;
+    }
+    .parallax {
+        background-position: 48% 292px;
+        background-size: 144%;
+    }
+    .botao {
+        margin-top: 126%;
+        margin-left: 37%;
+    }
+}
+
+
+@media (max-width: 820px) {
+    .fundo {
+        background-size: 259%;
+    }
+    .icones {
+        margin-left: -28px;
+        margin-top: 125%;
+    }
+    .parallax {
+        background-position: 48% 292px;
+        background-size: 144%;
+    }
+    .botao {
+        margin-top: 126%;
+        margin-left: 37%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .icones {
+        margin-top: 115%;
+    }
+    .botao {
+        margin-top: 120%;
+    }
+    .parallax {
+        background-position: 52% 212px;
+    }
+}
+
+@media (max-width: 540px){
+    .fundo {
+        background-position: 51% 0;
+        background-size: 242%;
+    }
+    .parallax {
+        background-position: 50% 73px;
+        background-size: 175%;
+    }
+    .menu {
+        display: block;
+        background: none;
+    }
+    .logo {
+        padding: 0;
+    }
+    .logo img {
+        width: 80px;
+    }
+    .menu .links{
+        display: grid;
+        justify-content: end;
+        margin-top: 78%;
+        text-align: end;
+        padding: 0;
+    }
+    .icones {
+        margin-left: -28px;
+        margin-top: 108%;
+    }
+    .botao {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        width: 117px;
+        margin-top: 115%;
+        margin-left: 33%;
+        z-index: 99;
+    }
+}
+
+@media (max-width: 414px) {
+    .fundo {
+        background-position: 51% 0;
+        background-size: 326%;
+    }
+    .parallax {
+        background-position: 50% 149px;
+        background-size: 175%;
+    }
+    .menu {
+        display: block;
+        background: none;
+    }
+    .logo {
+        padding: 0;
+    }
+    .logo img {
+        width: 80px;
+    }
+    .menu .links{
+        display: grid;
+        justify-content: end;
+        margin-top: 140%;
+        text-align: end;
+        padding: 0;
+    }
+    .icones {
+        margin-left: -28px;
+        margin-top: 180%;
+    }
+    .botao {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        width: 117px;
+        margin-top: 148%;
+        margin-left: 29%;
+        z-index: 99;
+    }
+}
+
+@media (max-width: 375px) {
+    .fundo {
+        background-position: 51% 0;
+        background-size: 326%;
+    }
+    .parallax {
+        background-position: 50% 149px;
+        background-size: 175%;
+    }
+    .menu {
+        display: block;
+        background: none;
+    }
+    .logo {
+        padding: 0;
+    }
+    .logo img {
+        width: 80px;
+    }
+    .menu .links{
+        display: grid;
+        justify-content: end;
+        margin-top: 96%;
+        text-align: end;
+        padding: 0;
+    }
+    .icones {
+        margin-left: -28px;
+        margin-top: 140%;
+    }
+    .botao {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        width: 117px;
+        margin-top: 148%;
+        margin-left: 29%;
+        z-index: 99;
+    }
+}
+
+
+@media (max-width: 360px) {
+    .menu .links{
+        margin-top: 122%;
+    }
+    .icones {
+        margin-top: 167%;
+    }
+}

@@ -1,0 +1,208 @@
+
+*{margin:0;}
+html, body{
+    height: 100%;
+}
+html{
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+body{
+    background-image: linear-gradient( #0c020b , #10060a);
+}
+
+
+/* ---------------------------MENU------------------------------------*/
+.menu {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    background: #8178783b;
+    z-index: 9;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+}
+.menu li{
+    color: white;
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+}
+.menu li:hover{
+    transition: 0.5s; 
+    font-size: 22px;
+}
+li a{
+    text-decoration: none;
+    text-transform: none;
+    color: white;
+}
+.logo{
+    width: 135px;
+    height: auto;
+}
+.logo img{
+    width: 100%;
+}
+.links{
+    padding-right: 40px;
+}
+li.iroman{
+    transition: 0.5s;
+}
+li.iroman:hover{
+    text-shadow: 2px 0px #f66afc;
+}
+li.home{
+    transition: 0.5s;
+}
+li.home:hover{
+    text-shadow: 1px 1px #9C27B0;
+}
+li.hulk{
+    transition: 0.5s;
+}
+li.hulk:hover{
+    text-shadow: 2px 0px #00ffb3;
+}
+li.antman{
+    transition: 0.5s;
+}
+li.antman:hover{
+    text-shadow: 2px 0px #b80217;
+}
+li.capitan{
+    transition: 0.5s;
+}
+li.capitan:hover{
+    text-shadow: 2px 0px #05b4ec;;
+}
+li.thor{
+    transition: 0.5s;
+}
+li.thor:hover{
+    text-shadow: 2px 0px #ebb849;
+}
+/*---------------------------------END-MENU-----------------*/
+.icones{
+    display: grid;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    z-index: 9;
+    width: 4%;
+    margin-top: 36%;
+    cursor: pointer;
+}
+.icones li{
+    color: white;
+    font-size: 24px;
+    padding: 4px;
+    transition: 0.3s ;
+}
+.icones li:hover{
+    font-size: 28px;
+    transition: 0.3s ;
+}
+
+.fundo{
+    background-repeat: no-repeat;
+    background-position: 50% 0 ;
+    background-attachment: fixed;
+    background-size: 100%;
+    width: 100%;
+    min-height: 100%;
+    max-width: 1920px;
+    position: relative;
+    margin: 0 auto;
+}
+#back{
+    background-image: url(../img/fundo.png);
+}
+#back-1{
+    background-image: url(../img/homem-de-ferro.jpg);
+}
+#back-2{
+    background-image: url(../img/hulk.jpg);
+}
+#back-3{ 
+    background-image: url(../img/homem-formiga.jpg);
+}
+#back-4{
+    background-image: url(../img/capitao-america.jpg);
+}
+#back-5{
+    background-image: url(../img/thor.jpg);
+}
+
+.parallax{
+    background-repeat: no-repeat;
+    background-position: 99% 0 ;
+    background-attachment: fixed;
+    background-size: 89%;
+    width: 100%;
+    min-height: 100%;
+    max-width: 1920px;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+.botao{
+    width: 144px;
+    height: 24px;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 25%;
+    position: absolute;
+    margin-left: 12%;
+    text-align: center;
+    cursor: pointer;
+    padding: 18px;
+    font-family: sans-serif;
+    font-size: 22px;
+    transition: 0.3s ;
+}
+--cor-black{
+    background: #0c020b;
+}
+#bt{
+    background: var(--cor-black);
+    color: #f846ff;
+    box-shadow: 0px 0px 3px 2px #f846ff;
+}
+#bt-1{
+    background: var(--cor-black);
+    color: #04f987;
+    box-shadow: 0px 0px 3px 2px  #04f987;
+}
+#bt-2{
+    background: var(--cor-black);
+    color: #f700d7;
+    box-shadow: 0px 0px 3px 2px #f700d7;
+}
+#bt-3{
+    background: var(--cor-black);
+    color: #823afb;
+    box-shadow: 0px 0px 3px 2px #823afb;
+}
+#bt-4{
+    background: var(--cor-black);
+    color: #07defb;
+    box-shadow: 0px 0px 3px 2px #07defb;
+}
+#bt:hover, #bt-1:hover,
+#bt-2:hover, #bt-3:hover,
+#bt-4:hover{
+ box-shadow: 0px 0px 16px 5px ; 
+    text-shadow: 0px 0px 25px;
+    transition: 0.5s;
+}
+
+
